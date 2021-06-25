@@ -16,4 +16,9 @@ class Email
 
         $this->address = $address;
     }
+
+    public function __toString(): string
+    {
+        return $this->address;
+    }
 }

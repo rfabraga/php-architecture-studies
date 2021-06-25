@@ -3,7 +3,6 @@
 namespace Studies\Architecture;
 
 use Stringable;
-
 class CPF implements Stringable
 {
     private string $document;
