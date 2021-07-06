@@ -1,6 +1,6 @@
 <?
 
-namespace Studies\Architecture;
+namespace Studies\Architecture\Domain\Student;
 
 class Phone
 {

@@ -1,6 +1,9 @@
 <?php
 
-namespace Studies\Architecture;
+namespace Studies\Architecture\Domain\Student;
+
+use Studies\Architecture\CPF;
+use Studies\Architecture\Email;
 
 class Student
 {

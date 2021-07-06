@@ -1,6 +1,8 @@
 <?php
 
-namespace Studies\Architecture;
+namespace Studies\Architecture\Domain\Recommendation;
+
+use Studies\Architecture\Domain\Student\Student;
 
 class Recommendation
 {
