@@ -7,3 +7,5 @@ What I learned so far:
 * Value Objects;
 * Builder Creational Design Pattern;
 * Named Constructors;
+* Creating repositories;
+* Making Domains agnostic to the infrastructure;
