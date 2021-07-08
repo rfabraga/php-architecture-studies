@@ -2,8 +2,8 @@
 
 namespace Studies\Architecture\Domain\Student;
 
-use Studies\Architecture\CPF;
-use Studies\Architecture\Email;
+use Studies\Architecture\Domain\CPF;
+use Studies\Architecture\Domain\Email;
 
 class StudentBuilder
 {
