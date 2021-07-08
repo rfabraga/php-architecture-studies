@@ -2,8 +2,8 @@
 
 namespace Studies\Architecture\Domain\Student;
 
-use Studies\Architecture\CPF;
-use Studies\Architecture\Email;
+use Studies\Architecture\Domain\CPF;
+use Studies\Architecture\Domain\Email;
 
 class Student
 {
@@ -21,5 +21,25 @@ class Student
     {
         $this->phones[] = new Phone($ddd, $number);
         return $this;
+    }
+
+    public function cpf(): string
+    {
+        return $this->cpf;
+    }
+
+    public function name(): string
+    {
+        return $this->name;
+    }
+
+    public function email(): string
+    {
+        return $this->email;
+    }
+
+    public function phones(): array
+    {
+        return $this->phones;
     }
 }

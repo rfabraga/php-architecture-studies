@@ -1,6 +1,6 @@
 <?php
 
-namespace Studies\Architecture;
+namespace Studies\Architecture\Domain;
 
 use Stringable;
 class CPF implements Stringable
