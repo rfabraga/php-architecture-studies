@@ -11,9 +11,15 @@ What I learned so far:
 * Making Domains agnostic to the infrastructure;
 * Making infrastructure services separated form the domain services;
 * Defining application layer;
+* Services:
+    * Domain Services represent actions between entities;
+    * Application Services control our business flow;
+    * Infrastructure Services implement interfaces from the domain and application layers.
+
 
 
 
 Challenges:
 * Recommendation Repos;
 * Sendidng recommendation mails;
+* Moving recommendation interface to domain;
