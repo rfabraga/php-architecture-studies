@@ -13,7 +13,7 @@ What I learned so far:
 * Defining application layer;
 * Services:
     * Domain Services represent actions between entities;
-    * Application Services control our business flow;
+    * Application Services control our business flow and functions as entry points for the application;
     * Infrastructure Services implement interfaces from the domain and application layers.
 
 
