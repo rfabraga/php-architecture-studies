@@ -9,3 +9,11 @@ What I learned so far:
 * Named Constructors;
 * Creating repositories;
 * Making Domains agnostic to the infrastructure;
+* Making infrastructure services separated form the domain services;
+* Defining application layer;
+
+
+
+Challenges:
+* Recommendation Repos;
+* Sendidng recommendation mails;
